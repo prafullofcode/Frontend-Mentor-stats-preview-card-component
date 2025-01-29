@@ -9,21 +9,11 @@
 }
 
 
-
- @media screen and (max-width: 850px) {
-    html{
-        font-size: 40%;
-    }
-
-  }
-  
-  
-
   @media screen and (max-width: 768px) {
-html{
-    font-size: 40%;
-}
 
+html{
+    font-size: 62.5%;
+}
 .container{
     display: flex;
     flex-direction:column-reverse ;
@@ -38,10 +28,12 @@ html{
 
 .main-tagline{
     text-align: center;
+    font-size: 2.4rem;
 }
 
 .main-paragraph{
 text-align: center;
+font-size: 1.5rem;
 }
 .stats-wrapper{
     display: flex;
@@ -75,3 +67,4 @@ text-align: center;
         border-radius: 1rem 1rem 0 0 ;
     }
   
+  }
